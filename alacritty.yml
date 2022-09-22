@@ -1,0 +1,38 @@
+# Alacritty Configuration by Madness$
+# Configurations example: https://github.com/alacritty/alacritty/blob/master/alacritty.yml
+
+# Config Imports
+import:
+  - ~/.config/alacritty/font.yml
+
+# Allow terminal applications to change Alacritty's window title.
+dynamic_title: true
+
+# Window configuration
+window:
+  # opacity
+  opacity: 0.8
+  # default dimensions
+  dimensions:
+    columns: 128
+    lines: 36
+  # startup_mode: Maximized
+  decorations: Full
+  position:
+    x: 0
+    y: 0
+
+# Live config reload (changes require restart)
+live_config_reload: true
+
+# Shell
+# shell:
+#   program: /bin/zsh
+
+shell:
+  # Change madness to you user or change the path to your tmux bin
+  program: /home/madness/.linuxbrew/bin/tmux
+  args:
+    - -f
+    - /home/madness/.config/tmux/tmux.conf 
+

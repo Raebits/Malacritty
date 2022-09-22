@@ -1,0 +1,26 @@
+# Font configuration (changes require restart)
+font:
+  # Point Size
+  normal:
+    family: Hack Nerd Font
+    style: Light
+    # family: "Fira Code"
+    # family: "Source Code Pro"
+    # style: Retina
+
+  # The bold font face
+  bold:
+    family: Hack Nerd Font
+    style: Medium
+    # family: "Fira Code"
+    # family: "Source Code Pro"
+
+  # The italic font face
+  italic:
+    family: Hack Nerd Font
+    style: "Light Italic"
+    # style: "Light Oblique"
+    # family: "Fira Code"
+    # family: "Source Code Pro"
+    # style: "Medium Italic"
+  size: 8.0
