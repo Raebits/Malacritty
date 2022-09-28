@@ -31,8 +31,5 @@ live_config_reload: true
 
 shell:
   # Change madness to you user or change the path to your tmux bin
-  program: /home/madness/.linuxbrew/bin/tmux
-  args:
-    - -f
-    - /home/madness/.config/tmux/tmux.conf 
-
+  program: /usr/bin/tmux
+  # program: /usr/bin/zsh
